@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top_nav{
+  width:85%;
+  margin:auto ;
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.logo{
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  cursor:pointer;
+}
+
+.top_nav ul li{
+        list-style: none;
+        display:inline-block;
+        margin: 0 15px;
+}
+.top_nav ul li a{
+  text-decoration:none;
+  text-transform: uppercase;
+  color:white;
+  font-size: 16px;
+
+}
+.image-background {
+  height: 100vh;
+  min-height: 500px;
+  background-image:linear-gradient(rgba(0,0,0,0.9) ,rgba(0,0,0,0.6)),url("assets/image/rock.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+a
+.display-2 {
+  font-weight: 400;
+  text-shadow: 1px 2px black;
+}
+
+.lead {
+  text-shadow: 1px 2px black;
+}
+
+.grid-container {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 50px 50px 50px; /*Make the grid smaller than the container*/
+  gap: 30px;
+  margin-top:30px;
+  padding: 35px;
+}
+
+.grid-container > div {
+ 
+  text-align: center;
+  padding: 20px 0;
+  width:250px;
+  font-size: 30px;
+}
+
+#one h6{
+    font-size: 24px;
+    font-weight: normal;
+    color:white;
+
+}
+#one{
+  margin-top: 20px;
+  margin:8px;
+}
+#Sermon{
+    background-color:#004225;
+    padding: 10px 40px ;
+    border-radius: 20px;
+    border-style: none;
+    color:white;
+}
+p{
+    font-size: 16px;
+    color:white;
+
+}
+ 
+.flex-container{
+    display: flex;
+}
+.flex-container > img{
+    border-radius: 20px;
+    width:380px;
+}
+.flex-container > div{
+  margin: 10px;
+  padding: 80px;
+  
+
+}
+.flex-container > h1{
+  font-weight: bolder;
+  font-size: large;
+}
+.flex-container-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex-container-3{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.flex-container-3 > div{
+  margin:25px;
+
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 200px;
+  height:auto;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px 0 0 10px;
+
+}
+.flex-container-3 > img{
+    border-radius: 15px;
+}
+.flex-container-4{
+  display:flex;
+  justify-content: center;
+  background-color: #004225;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-container-4  h3,h1{
+  color:white;
+ }
+ .flex-container-5{
+   display: flex;
+
+ }
+ .flex-container-5 ul li{
+   list-style: none;
+   
+ }
+.flex-container-5 > div{
+  margin:40px;
+
+}
+.flex-container-6{
+  display:flex;
+  justify-content: center;
+  margin-top:40px;
+}
+.flex-container-7{
+  display:flex;
+  justify-content: space-between;
+}
+.flex-container-8{
+  display:flex;
+  justify-content: space-between;
+  background-color: #004225;
+  margin-top:40px;
+  padding: 80px;
+
+}
+.flex-container-7 > div{
+  margin: 30px;
+}
+.flex-container-1{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  margin-top: 15%;
+   
+}
+.flex-container-1 > div{
+  margin: 10px;
+
+}
+.flex-container-1 > div h1,h3,p,button{
+  margin: 5px;
+  text-align: center;
+}
+
+.fa{
+  padding: 10px;
+  font-size: 130px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+  color:white;
+  border: solid 1px white;
+
+}
+.fa:hover {
+    background-color:#1b5e20;
+    border:none;
+}
+.fa-light{
+  color:white
+
+}
+.product_card{
+  background-color: white;
+  box-shadow: 5px 10px rg;
+
+}
